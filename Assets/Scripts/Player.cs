@@ -3,10 +3,9 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 	[HideInInspector]
-	Controller controller;
-
-	public GameObject bullet;
-
+	private Controller controller;
+	
+	public Weapon weapon;
 	public BoxCollider2D jumpBox;
 
 	// Use this for initialization
@@ -69,13 +68,11 @@ public class Player : MonoBehaviour {
 			return;
 		}
 
-		Instantiate(bullet, 
-		            new Vector3(
-						transform.position.x + 3f, 
-						transform.position.y, 
-						transform.position.z), 
-		            Quaternion.identity);
+		// make the weapon work for us
+		weapon.Shoot ();
 
+		// we set this regardless of whether or not the player can shoot so we can
+		// check it again next frame
 		controller.Shoot = false;
 	}
 
