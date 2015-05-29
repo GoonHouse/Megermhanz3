@@ -204,11 +204,6 @@ Prefab:
       propertyPath: weapon
       value: 
       objectReference: {fileID: 1241631499}
-    - target: {fileID: 21282542, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300014, guid: 48264093ded105c48aba79276dbdbd47,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
   m_IsPrefabParent: 0
@@ -221,11 +216,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 446988, guid: 2b3d94e7059d00940844a1467a5ad22d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: .135000005
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 446988, guid: 2b3d94e7059d00940844a1467a5ad22d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: .0149999997
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 446988, guid: 2b3d94e7059d00940844a1467a5ad22d, type: 2}
       propertyPath: m_LocalPosition.z

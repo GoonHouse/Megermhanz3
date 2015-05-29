@@ -2,97 +2,53 @@
 using System.Collections;
 
 public class Player : MonoBehaviour {
-	[HideInInspector]
-	private Controller controller;
-	
 	public Weapon weapon;
 	public BoxCollider2D jumpBox;
 
+	public float speed;
+	public float jumpForce;
+	
+	public int jumps = 0;
+	public int maxJumps = 3;
+	
+	private bool grounded = false;
+	
+	private Rigidbody2D rb;
+
 	// Use this for initialization
 	void Start () {
-		controller = new Controller ();
+		rb = GetComponent<Rigidbody2D> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		Controls ();
-		Movement ();
-		Shoot ();
+		UpdateControls ();
 	}
 
-	void Controls() {
-		//Left
-		if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-			controller.Left=true;
-		} else {
-			controller.Left=false;
-		}
-		//Right
-		if (Input.GetKeyDown(KeyCode.RightArrow)) {
-			controller.Right=true;
-		} else {
-			controller.Right=false;
-		}
-		//Up
-		if (Input.GetKeyDown (KeyCode.UpArrow)) {
-			controller.Up = true;
-		} else {
-			controller.Up = false;
-		}
-		//SHOOT THE BULLETS
-		if (Input.GetKeyDown (KeyCode.Z)) {
-			controller.Shoot = true;
-		}
-	}
+	void UpdateControls() {
+		// left / right movement
+		rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
 
-	void Movement() {
-		float newPosX = transform.position.x;
+		// jump related activities
+		grounded = jumpBox.IsTouchingLayers (LayerMask.GetMask ("Ground"));
 
-		if (controller.Left) {
-			newPosX -= 5;
-		}
-
-		if (controller.Right) {
-			newPosX += 5;
-		}
-
-		if (controller.Up) {
+		if (Input.GetAxis ("Vertical") > 0.5f) {
 			Jump();
 		}
 
-		transform.position = new Vector2 (newPosX, transform.position.y);
-	}
-
-	void Shoot() {
-		if (controller.Shoot == false) {
-			return;
+		// shooting
+		if (Input.GetButton ("Fire1")) {
+			weapon.Shoot();
 		}
-
-		// make the weapon work for us
-		weapon.Shoot ();
-
-		// we set this regardless of whether or not the player can shoot so we can
-		// check it again next frame
-		controller.Shoot = false;
 	}
 
 	void Jump() {
-		bool grounded = jumpBox.IsTouchingLayers (LayerMask.GetMask ("Ground"));
-
 		if (grounded) {
-			transform.Translate (new Vector3 (
-				transform.position.x,
-				20f,
-				transform.position.z
-			));
+			// @WARNING: This works, but sometimes grounded is true while still trying to move
+			// the player, resulting in a giant bounce depending on how long they're in contact
+			// with the ground for. Personally, I found it hilarious, so I am leaving it for now.
+			Vector2 jumpVector = new Vector2(0, jumpForce);
+			rb.AddForce(jumpVector);
 		}
 	}
-}
-
-
-class Controller {
-	public bool Up = false;
-	public bool Left = false;
-	public bool Right = false;
-	public bool Shoot = false;
 }
