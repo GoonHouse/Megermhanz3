@@ -28,11 +28,7 @@ public class Weapon : MonoBehaviour {
 			lastFired = Time.time;
 			Instantiate (
 				bullet, 
-			    new Vector3 (
-					transform.position.x, 
-					transform.position.y, 
-					transform.position.z
-				), 
+			    transform.position, 
 				Quaternion.identity
 			);
 			return true;
