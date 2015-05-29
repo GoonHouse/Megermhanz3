@@ -41,6 +41,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 182116, guid: d6ed83283f841d74782968056c5bb41e, type: 2}
   ammo: 300
+  ammoPerShot: 1
   maxAmmo: 900
   fireRate: 1
 --- !u!1001 &100100000

@@ -6,6 +6,7 @@ public class Weapon : MonoBehaviour {
 	public GameObject bullet;
 
 	public int ammo;
+	public int ammoPerShot;
 	public int maxAmmo;
 	public float fireRate;
 
@@ -22,13 +23,13 @@ public class Weapon : MonoBehaviour {
 	}
 
 	public bool Shoot (){
-		if (ammo > 0 && lastFired < Time.time + fireRate) {
-			ammo--;
+		if (HasEnoughAmmo() && CanFireAgain()) {
+			ammo -= ammoPerShot;
 			lastFired = Time.time;
 			Instantiate (
 				bullet, 
 			    new Vector3 (
-					transform.position.x + 3f, 
+					transform.position.x, 
 					transform.position.y, 
 					transform.position.z
 				), 
@@ -39,4 +40,30 @@ public class Weapon : MonoBehaviour {
 			return false;
 		}
 	}
+
+	// == Helpers
+
+	// by defining this, we allow this to be overwritten  in the event
+	// we need a gun that can still fire without the minimum ammount
+	// (think: burst fire modes)
+	public bool HasEnoughAmmo(){
+		if (ammo - ammoPerShot > 0) {
+			return true;
+		} else {
+			OutOfAmmo();
+			return false;
+		}
+	}
+
+	// we do this as a function because energy weapons (plasma rifle)
+	// might use a cooldown instead of ammo
+	public bool CanFireAgain(){
+		return lastFired < Time.time + fireRate;
+	}
+
+	// == Function hooks and overloads.
+	// want to do something when out of ammo? reload? call mom? here you go.
+	void OutOfAmmo(){
+		Debug.Log ("OH GOD THERE ARE NO MORE BULLETS BUT I MUST INFLICT PAIN");
+	}	
 }
