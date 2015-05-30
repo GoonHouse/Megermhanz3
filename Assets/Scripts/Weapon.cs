@@ -62,4 +62,9 @@ public class Weapon : MonoBehaviour {
 	void OutOfAmmo(){
 		Debug.Log ("OH GOD THERE ARE NO MORE BULLETS BUT I MUST INFLICT PAIN");
 	}	
+
+	public void ChangeWeapon(GameObject newWeapon) {
+		bullet = newWeapon;
+		ammo = 300;
+	}
 }
