@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec496fa0b01597948b403b22c9c47988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 182116, guid: d6ed83283f841d74782968056c5bb41e, type: 2}
+  bullet: {fileID: 197474, guid: 7d8576b164cf26f42a2ab021d7831038, type: 2}
   ammo: 300
   ammoPerShot: 1
   maxAmmo: 900
