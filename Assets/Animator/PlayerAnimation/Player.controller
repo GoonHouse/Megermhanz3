@@ -139,23 +139,23 @@ AnimatorStateMachine:
   - {fileID: 110964982}
   m_StateMachineTransitions:
     data:
-      first: {fileID: 110785430}
-      second:
-      - {fileID: 110982224}
-      - {fileID: 110935914}
-    data:
-      first: {fileID: 110727226}
-      second:
-      - {fileID: 110975984}
-      - {fileID: 110924146}
+      first: {fileID: 110744178}
+      second: []
     data:
       first: {fileID: 110771806}
       second:
       - {fileID: 110932390}
       - {fileID: 110945370}
     data:
-      first: {fileID: 110744178}
-      second: []
+      first: {fileID: 110727226}
+      second:
+      - {fileID: 110975984}
+      - {fileID: 110924146}
+    data:
+      first: {fileID: 110785430}
+      second:
+      - {fileID: 110982224}
+      - {fileID: 110935914}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 504, y: -204, z: 0}
   m_EntryPosition: {x: 168, y: -300, z: 0}
