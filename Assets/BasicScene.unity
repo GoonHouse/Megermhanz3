@@ -200,9 +200,33 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11484718, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 162740, guid: 1b82eb82233a8074bb0b619ce88e7a15, type: 2}
+    - target: {fileID: 5021930, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
+      propertyPath: m_Mass
+      value: 60
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &451604006 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 158924, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
+  m_PrefabInternal: {fileID: 1510777748}
+--- !u!114 &451604007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 451604006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f35861368f14f3429d4c82eb7afb32a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &1161052105
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,18 +350,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6138994, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
-      propertyPath: m_UsedByEffector
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6138994, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11437646, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
-      propertyPath: capsuleWeapon
-      value: 
-      objectReference: {fileID: 182862, guid: d2b390aa2817f7d44b259f4fa05e0157, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
   m_IsPrefabParent: 0
