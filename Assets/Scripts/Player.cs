@@ -14,6 +14,11 @@ public class Player : MonoBehaviour {
 	private bool grounded = false;
 	
 	private Rigidbody2D rb;
+	private Animator anim;
+
+	private float shotTimer = 0f;
+	private float shotVal = 5f;
+
 
 	// Use this for initialization
 	void Start () {
@@ -27,6 +32,10 @@ public class Player : MonoBehaviour {
 	}
 
 	void UpdateControls() {
+		shotTimer -= Time.deltaTime;
+
+		if (shotTimer < 0f) {anim.SetBool("shot",false);}
+
 		// left / right movement
 		rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
 
@@ -39,7 +48,11 @@ public class Player : MonoBehaviour {
 
 		// shooting
 		if (Input.GetButton ("Fire1")) {
-			weapon.Shoot();
+			bool didShot = weapon.Shoot();
+			if (didShot) {
+				shotTimer = shotVal;
+				anim.SetBool("shot",true);
+			}
 		}
 	}
 
