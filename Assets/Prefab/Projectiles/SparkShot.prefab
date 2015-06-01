@@ -15,7 +15,7 @@ GameObject:
   - 95: {fileID: 9563444}
   m_Layer: 0
   m_Name: SparkShot
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,6 +91,7 @@ MonoBehaviour:
   speed: 2
   damage: 3
   damageType: 0
+  owner: {fileID: 0}
 --- !u!212 &21249074
 SpriteRenderer:
   m_ObjectHideFlags: 1

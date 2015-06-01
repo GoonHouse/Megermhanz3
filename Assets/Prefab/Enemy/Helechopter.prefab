@@ -12,6 +12,7 @@ GameObject:
   - 95: {fileID: 9524360}
   - 61: {fileID: 6139968}
   - 50: {fileID: 5071580}
+  - 114: {fileID: 11408186}
   m_Layer: 0
   m_Name: Helechopter
   m_TagString: Untagged
@@ -76,6 +77,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11408186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6e83aa1109e9e4792874a276718f64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 30
+  hp: 1
 --- !u!212 &21241940
 SpriteRenderer:
   m_ObjectHideFlags: 1
