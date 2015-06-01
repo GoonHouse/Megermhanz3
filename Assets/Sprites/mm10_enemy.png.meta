@@ -1,0 +1,4466 @@
+fileFormatVersion: 2
+guid: 8ded17933147b474d9f1fd13c8cb7912
+timeCreated: 1433185586
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mm10_enemy_0
+    21300002: mm10_enemy_1
+    21300004: mm10_enemy_2
+    21300006: mm10_enemy_3
+    21300008: mm10_enemy_4
+    21300010: mm10_enemy_5
+    21300012: mm10_enemy_6
+    21300014: mm10_enemy_7
+    21300016: mm10_enemy_8
+    21300018: mm10_enemy_9
+    21300020: mm10_enemy_10
+    21300022: mm10_enemy_11
+    21300024: mm10_enemy_12
+    21300026: mm10_enemy_13
+    21300028: mm10_enemy_14
+    21300030: mm10_enemy_15
+    21300032: mm10_enemy_16
+    21300034: mm10_enemy_17
+    21300036: mm10_enemy_18
+    21300038: mm10_enemy_19
+    21300040: mm10_enemy_20
+    21300042: mm10_enemy_21
+    21300044: mm10_enemy_22
+    21300046: mm10_enemy_23
+    21300048: mm10_enemy_24
+    21300050: mm10_enemy_25
+    21300052: mm10_enemy_26
+    21300054: mm10_enemy_27
+    21300056: mm10_enemy_28
+    21300058: mm10_enemy_29
+    21300060: mm10_enemy_30
+    21300062: mm10_enemy_31
+    21300064: mm10_enemy_32
+    21300066: mm10_enemy_33
+    21300068: mm10_enemy_34
+    21300070: mm10_enemy_35
+    21300072: mm10_enemy_36
+    21300074: mm10_enemy_37
+    21300076: mm10_enemy_38
+    21300078: mm10_enemy_39
+    21300080: mm10_enemy_40
+    21300082: mm10_enemy_41
+    21300084: mm10_enemy_42
+    21300086: mm10_enemy_43
+    21300088: mm10_enemy_44
+    21300090: mm10_enemy_45
+    21300092: mm10_enemy_46
+    21300094: mm10_enemy_47
+    21300096: mm10_enemy_48
+    21300098: mm10_enemy_49
+    21300100: mm10_enemy_50
+    21300102: mm10_enemy_51
+    21300104: mm10_enemy_52
+    21300106: mm10_enemy_53
+    21300108: mm10_enemy_54
+    21300110: mm10_enemy_55
+    21300112: mm10_enemy_56
+    21300114: mm10_enemy_57
+    21300116: mm10_enemy_58
+    21300118: mm10_enemy_59
+    21300120: mm10_enemy_60
+    21300122: mm10_enemy_61
+    21300124: mm10_enemy_62
+    21300126: mm10_enemy_63
+    21300128: mm10_enemy_64
+    21300130: mm10_enemy_65
+    21300132: mm10_enemy_66
+    21300134: mm10_enemy_67
+    21300136: mm10_enemy_68
+    21300138: mm10_enemy_69
+    21300140: mm10_enemy_70
+    21300142: mm10_enemy_71
+    21300144: mm10_enemy_72
+    21300146: mm10_enemy_73
+    21300148: mm10_enemy_74
+    21300150: mm10_enemy_75
+    21300152: mm10_enemy_76
+    21300154: mm10_enemy_77
+    21300156: mm10_enemy_78
+    21300158: mm10_enemy_79
+    21300160: mm10_enemy_80
+    21300162: mm10_enemy_81
+    21300164: mm10_enemy_82
+    21300166: mm10_enemy_83
+    21300168: mm10_enemy_84
+    21300170: mm10_enemy_85
+    21300172: mm10_enemy_86
+    21300174: mm10_enemy_87
+    21300176: mm10_enemy_88
+    21300178: mm10_enemy_89
+    21300180: mm10_enemy_90
+    21300182: mm10_enemy_91
+    21300184: mm10_enemy_92
+    21300186: mm10_enemy_93
+    21300188: mm10_enemy_94
+    21300190: mm10_enemy_95
+    21300192: mm10_enemy_96
+    21300194: mm10_enemy_97
+    21300196: mm10_enemy_98
+    21300198: mm10_enemy_99
+    21300200: mm10_enemy_100
+    21300202: mm10_enemy_101
+    21300204: mm10_enemy_102
+    21300206: mm10_enemy_103
+    21300208: mm10_enemy_104
+    21300210: mm10_enemy_105
+    21300212: mm10_enemy_106
+    21300214: mm10_enemy_107
+    21300216: mm10_enemy_108
+    21300218: mm10_enemy_109
+    21300220: mm10_enemy_110
+    21300222: mm10_enemy_111
+    21300224: mm10_enemy_112
+    21300226: mm10_enemy_113
+    21300228: mm10_enemy_114
+    21300230: mm10_enemy_115
+    21300232: mm10_enemy_116
+    21300234: mm10_enemy_117
+    21300236: mm10_enemy_118
+    21300238: mm10_enemy_119
+    21300240: mm10_enemy_120
+    21300242: mm10_enemy_121
+    21300244: mm10_enemy_122
+    21300246: mm10_enemy_123
+    21300248: mm10_enemy_124
+    21300250: mm10_enemy_125
+    21300252: mm10_enemy_126
+    21300254: mm10_enemy_127
+    21300256: mm10_enemy_128
+    21300258: mm10_enemy_129
+    21300260: mm10_enemy_130
+    21300262: mm10_enemy_131
+    21300264: mm10_enemy_132
+    21300266: mm10_enemy_133
+    21300268: mm10_enemy_134
+    21300270: mm10_enemy_135
+    21300272: mm10_enemy_136
+    21300274: mm10_enemy_137
+    21300276: mm10_enemy_138
+    21300278: mm10_enemy_139
+    21300280: mm10_enemy_140
+    21300282: mm10_enemy_141
+    21300284: mm10_enemy_142
+    21300286: mm10_enemy_143
+    21300288: mm10_enemy_144
+    21300290: mm10_enemy_145
+    21300292: mm10_enemy_146
+    21300294: mm10_enemy_147
+    21300296: mm10_enemy_148
+    21300298: mm10_enemy_149
+    21300300: mm10_enemy_150
+    21300302: mm10_enemy_151
+    21300304: mm10_enemy_152
+    21300306: mm10_enemy_153
+    21300308: mm10_enemy_154
+    21300310: mm10_enemy_155
+    21300312: mm10_enemy_156
+    21300314: mm10_enemy_157
+    21300316: mm10_enemy_158
+    21300318: mm10_enemy_159
+    21300320: mm10_enemy_160
+    21300322: mm10_enemy_161
+    21300324: mm10_enemy_162
+    21300326: mm10_enemy_163
+    21300328: mm10_enemy_164
+    21300330: mm10_enemy_165
+    21300332: mm10_enemy_166
+    21300334: mm10_enemy_167
+    21300336: mm10_enemy_168
+    21300338: mm10_enemy_169
+    21300340: mm10_enemy_170
+    21300342: mm10_enemy_171
+    21300344: mm10_enemy_172
+    21300346: mm10_enemy_173
+    21300348: mm10_enemy_174
+    21300350: mm10_enemy_175
+    21300352: mm10_enemy_176
+    21300354: mm10_enemy_177
+    21300356: mm10_enemy_178
+    21300358: mm10_enemy_179
+    21300360: mm10_enemy_180
+    21300362: mm10_enemy_181
+    21300364: mm10_enemy_182
+    21300366: mm10_enemy_183
+    21300368: mm10_enemy_184
+    21300370: mm10_enemy_185
+    21300372: mm10_enemy_186
+    21300374: mm10_enemy_187
+    21300376: mm10_enemy_188
+    21300378: mm10_enemy_189
+    21300380: mm10_enemy_190
+    21300382: mm10_enemy_191
+    21300384: mm10_enemy_192
+    21300386: mm10_enemy_193
+    21300388: mm10_enemy_194
+    21300390: mm10_enemy_195
+    21300392: mm10_enemy_196
+    21300394: mm10_enemy_197
+    21300396: mm10_enemy_198
+    21300398: mm10_enemy_199
+    21300400: mm10_enemy_200
+    21300402: mm10_enemy_201
+    21300404: mm10_enemy_202
+    21300406: mm10_enemy_203
+    21300408: mm10_enemy_204
+    21300410: mm10_enemy_205
+    21300412: mm10_enemy_206
+    21300414: mm10_enemy_207
+    21300416: mm10_enemy_208
+    21300418: mm10_enemy_209
+    21300420: mm10_enemy_210
+    21300422: mm10_enemy_211
+    21300424: mm10_enemy_212
+    21300426: mm10_enemy_213
+    21300428: mm10_enemy_214
+    21300430: mm10_enemy_215
+    21300432: mm10_enemy_216
+    21300434: mm10_enemy_217
+    21300436: mm10_enemy_218
+    21300438: mm10_enemy_219
+    21300440: mm10_enemy_220
+    21300442: mm10_enemy_221
+    21300444: mm10_enemy_222
+    21300446: mm10_enemy_223
+    21300448: mm10_enemy_224
+    21300450: mm10_enemy_225
+    21300452: mm10_enemy_226
+    21300454: mm10_enemy_227
+    21300456: mm10_enemy_228
+    21300458: mm10_enemy_229
+    21300460: mm10_enemy_230
+    21300462: mm10_enemy_231
+    21300464: mm10_enemy_232
+    21300466: mm10_enemy_233
+    21300468: mm10_enemy_234
+    21300470: mm10_enemy_235
+    21300472: mm10_enemy_236
+    21300474: mm10_enemy_237
+    21300476: mm10_enemy_238
+    21300478: mm10_enemy_239
+    21300480: mm10_enemy_240
+    21300482: mm10_enemy_241
+    21300484: mm10_enemy_242
+    21300486: mm10_enemy_243
+    21300488: mm10_enemy_244
+    21300490: mm10_enemy_245
+    21300492: mm10_enemy_246
+    21300494: mm10_enemy_247
+    21300496: mm10_enemy_248
+    21300498: mm10_enemy_249
+    21300500: mm10_enemy_250
+    21300502: mm10_enemy_251
+    21300504: mm10_enemy_252
+    21300506: mm10_enemy_253
+    21300508: mm10_enemy_254
+    21300510: mm10_enemy_255
+    21300512: mm10_enemy_256
+    21300514: mm10_enemy_257
+    21300516: mm10_enemy_258
+    21300518: mm10_enemy_259
+    21300520: mm10_enemy_260
+    21300522: mm10_enemy_261
+    21300524: mm10_enemy_262
+    21300526: mm10_enemy_263
+    21300528: mm10_enemy_264
+    21300530: mm10_enemy_265
+    21300532: mm10_enemy_266
+    21300534: mm10_enemy_267
+    21300536: mm10_enemy_268
+    21300538: mm10_enemy_269
+    21300540: mm10_enemy_270
+    21300542: mm10_enemy_271
+    21300544: mm10_enemy_272
+    21300546: mm10_enemy_273
+    21300548: mm10_enemy_274
+    21300550: mm10_enemy_275
+    21300552: mm10_enemy_276
+    21300554: mm10_enemy_277
+    21300556: mm10_enemy_278
+    21300558: mm10_enemy_279
+    21300560: mm10_enemy_280
+    21300562: mm10_enemy_281
+    21300564: mm10_enemy_282
+    21300566: mm10_enemy_283
+    21300568: mm10_enemy_284
+    21300570: mm10_enemy_285
+    21300572: mm10_enemy_286
+    21300574: mm10_enemy_287
+    21300576: mm10_enemy_288
+    21300578: mm10_enemy_289
+    21300580: mm10_enemy_290
+    21300582: mm10_enemy_291
+    21300584: mm10_enemy_292
+    21300586: mm10_enemy_293
+    21300588: mm10_enemy_294
+    21300590: mm10_enemy_295
+    21300592: mm10_enemy_296
+    21300594: mm10_enemy_297
+    21300596: mm10_enemy_298
+    21300598: mm10_enemy_299
+    21300600: mm10_enemy_300
+    21300602: mm10_enemy_301
+    21300604: mm10_enemy_302
+    21300606: mm10_enemy_303
+    21300608: mm10_enemy_304
+    21300610: mm10_enemy_305
+    21300612: mm10_enemy_306
+    21300614: mm10_enemy_307
+    21300616: mm10_enemy_308
+    21300618: mm10_enemy_309
+    21300620: mm10_enemy_310
+    21300622: mm10_enemy_311
+    21300624: mm10_enemy_312
+    21300626: mm10_enemy_313
+    21300628: mm10_enemy_314
+    21300630: mm10_enemy_315
+    21300632: mm10_enemy_316
+    21300634: mm10_enemy_317
+    21300636: mm10_enemy_318
+    21300638: mm10_enemy_319
+    21300640: mm10_enemy_320
+    21300642: mm10_enemy_321
+    21300644: mm10_enemy_322
+    21300646: mm10_enemy_323
+    21300648: mm10_enemy_324
+    21300650: mm10_enemy_325
+    21300652: mm10_enemy_326
+    21300654: mm10_enemy_327
+    21300656: mm10_enemy_328
+    21300658: mm10_enemy_329
+    21300660: mm10_enemy_330
+    21300662: mm10_enemy_331
+    21300664: mm10_enemy_332
+    21300666: mm10_enemy_333
+    21300668: mm10_enemy_334
+    21300670: mm10_enemy_335
+    21300672: mm10_enemy_336
+    21300674: mm10_enemy_337
+    21300676: mm10_enemy_338
+    21300678: mm10_enemy_339
+    21300680: mm10_enemy_340
+    21300682: mm10_enemy_341
+    21300684: mm10_enemy_342
+    21300686: mm10_enemy_343
+    21300688: mm10_enemy_344
+    21300690: mm10_enemy_345
+    21300692: mm10_enemy_346
+    21300694: mm10_enemy_347
+    21300696: mm10_enemy_348
+    21300698: mm10_enemy_349
+    21300700: mm10_enemy_350
+    21300702: mm10_enemy_351
+    21300704: mm10_enemy_352
+    21300706: mm10_enemy_353
+    21300708: mm10_enemy_354
+    21300710: mm10_enemy_355
+    21300712: mm10_enemy_356
+    21300714: mm10_enemy_357
+    21300716: mm10_enemy_358
+    21300718: mm10_enemy_359
+    21300720: mm10_enemy_360
+    21300722: mm10_enemy_361
+    21300724: mm10_enemy_362
+    21300726: mm10_enemy_363
+    21300728: mm10_enemy_364
+    21300730: mm10_enemy_365
+    21300732: mm10_enemy_366
+    21300734: mm10_enemy_367
+    21300736: mm10_enemy_368
+    21300738: mm10_enemy_369
+    21300740: mm10_enemy_370
+    21300742: mm10_enemy_371
+    21300744: mm10_enemy_372
+    21300746: mm10_enemy_373
+    21300748: mm10_enemy_374
+    21300750: mm10_enemy_375
+    21300752: mm10_enemy_376
+    21300754: mm10_enemy_377
+    21300756: mm10_enemy_378
+    21300758: mm10_enemy_379
+    21300760: mm10_enemy_380
+    21300762: mm10_enemy_381
+    21300764: mm10_enemy_382
+    21300766: mm10_enemy_383
+    21300768: mm10_enemy_384
+    21300770: mm10_enemy_385
+    21300772: mm10_enemy_386
+    21300774: mm10_enemy_387
+    21300776: mm10_enemy_388
+    21300778: mm10_enemy_389
+    21300780: mm10_enemy_390
+    21300782: mm10_enemy_391
+    21300784: mm10_enemy_392
+    21300786: mm10_enemy_393
+    21300788: mm10_enemy_394
+    21300790: mm10_enemy_395
+    21300792: mm10_enemy_396
+    21300794: mm10_enemy_397
+    21300796: mm10_enemy_398
+    21300798: mm10_enemy_399
+    21300800: mm10_enemy_400
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mm10_enemy_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 685
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 685
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 685
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 684
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 684
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 684
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_6
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 684
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 684
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 684
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 684
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_10
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 684
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_11
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 684
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_12
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 684
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_13
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 684
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_14
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 699
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_15
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 699
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_16
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 699
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_17
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 699
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_18
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 683
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_19
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 644
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_20
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 644
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_21
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 644
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_22
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 650
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_23
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 673
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_24
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 673
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_25
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 672
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 672
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_27
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 644
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 644
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_29
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 644
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_30
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 651
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_31
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 624
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_32
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 624
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_33
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 623
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_34
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 621
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_35
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 640
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_36
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 640
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_37
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 640
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_38
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 641
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_39
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 641
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_40
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 641
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_41
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 608
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_42
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 607
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_43
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 607
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_44
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 607
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_45
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 624
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_46
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 624
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_47
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 624
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_48
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 624
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_49
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 634
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_50
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 631
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_51
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 622
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_52
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 622
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_53
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 622
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_54
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 609
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_55
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 609
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_56
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 609
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_57
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 614
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_58
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 604
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_59
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 608
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_60
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 608
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_61
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 575
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_62
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 575
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_63
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 575
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_64
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 575
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_65
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 575
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_66
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 575
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_67
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 575
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_68
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 575
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_69
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 575
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_70
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 575
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_71
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 575
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_72
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 575
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_73
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 581
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_74
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 581
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_75
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 581
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_76
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 566
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_77
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 566
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_78
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 566
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_79
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 566
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_80
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 566
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_81
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 566
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_82
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 540
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_83
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 540
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_84
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 540
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_85
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 540
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_86
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 545
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_87
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 530
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_88
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 530
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_89
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 530
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_90
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 530
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_91
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 545
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_92
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 542
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_93
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 542
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_94
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 544
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_95
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 544
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_96
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 544
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_97
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 546
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_98
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 546
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_99
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 546
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_100
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 546
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_101
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 546
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_102
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 546
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_103
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 527
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_104
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 527
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_105
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 530
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_106
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 527
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_107
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 530
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_108
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 531
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_109
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 528
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_110
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 531
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_111
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 528
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_112
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 513
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_113
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 516
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_114
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 519
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_115
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 514
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_116
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 522
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_117
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 522
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_118
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 522
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_119
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 501
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_120
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 501
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_121
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 499
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_122
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 499
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_123
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 499
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_124
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 499
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_125
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 498
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_126
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 497
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_127
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 497
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_128
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 497
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_129
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 499
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_130
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 500
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_131
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 500
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_132
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 500
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_133
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 507
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_134
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 500
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_135
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 500
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_136
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 505
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_137
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 499
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_138
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 502
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_139
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 504
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_140
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 504
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_141
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 465
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_142
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 465
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_143
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 465
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_144
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 465
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_145
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 467
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_146
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 467
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_147
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 466
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_148
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 466
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_149
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 466
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_150
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 471
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_151
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 470
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_152
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 468
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_153
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 466
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_154
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 468
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_155
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 464
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_156
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 470
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_157
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 470
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_158
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 478
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_159
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 479
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_160
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 480
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_161
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 465
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_162
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 465
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_163
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 465
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_164
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 465
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_165
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 465
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_166
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 465
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_167
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 439
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_168
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 439
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_169
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 393
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_170
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 393
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_171
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 429
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_172
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 428
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_173
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 428
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_174
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 428
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_175
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 449
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_176
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 450
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_177
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_178
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_179
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_180
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 401
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_181
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 401
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_182
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 419
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_183
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 419
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_184
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 430
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_185
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 430
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_186
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 430
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_187
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 430
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_188
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 388
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_189
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 388
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_190
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 388
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_191
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 403
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_192
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 403
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_193
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 419
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_194
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 419
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_195
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 411
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_196
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 411
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_197
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 391
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_198
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 391
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_199
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 388
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_200
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 391
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_201
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 390
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_202
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 388
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_203
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 390
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_204
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 400
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_205
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 400
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_206
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 400
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_207
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 400
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_208
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 337
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_209
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 337
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_210
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 336
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_211
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 336
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_212
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 336
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_213
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 336
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_214
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 336
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_215
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 336
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_216
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 336
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_217
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 336
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_218
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 336
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_219
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 345
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_220
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 345
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_221
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 345
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_222
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 345
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_223
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 343
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_224
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 343
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_225
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 343
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_226
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 343
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_227
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 343
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_228
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 343
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_229
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 355
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_230
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 328
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_231
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 289
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_232
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 289
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_233
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 289
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_234
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 289
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_235
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 289
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_236
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 303
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_237
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 297
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_238
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 308
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_239
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 295
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_240
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 295
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_241
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 295
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_242
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 295
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_243
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 295
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_244
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 294
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_245
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 312
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_246
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 312
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_247
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 312
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_248
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 289
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_249
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 289
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_250
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 289
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_251
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 289
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_252
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 300
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_253
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 301
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_254
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 291
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_255
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 292
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_256
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 295
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_257
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 292
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_258
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 291
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_259
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 291
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_260
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 292
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_261
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 248
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_262
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 248
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_263
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 248
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_264
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 248
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_265
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 248
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_266
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 247
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_267
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 247
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_268
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 256
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_269
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 257
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_270
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 249
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_271
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 249
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_272
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 248
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_273
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 248
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_274
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 248
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_275
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 247
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_276
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 247
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_277
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 192
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_278
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 197
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_279
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 224
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_280
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 220
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_281
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 220
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_282
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 220
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_283
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 220
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_284
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 220
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_285
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 227
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_286
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 227
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_287
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 213
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_288
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 213
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_289
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 213
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_290
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 213
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_291
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 213
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_292
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 148
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_293
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 197
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_294
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 219
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_295
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 209
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_296
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 209
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_297
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 213
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_298
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 213
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_299
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 115
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_300
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 194
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_301
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 154
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_302
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 154
+        width: 17
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_303
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 194
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_304
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 195
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_305
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_306
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_307
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 186
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_308
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 188
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_309
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 188
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_310
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 181
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_311
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 181
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_312
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 177
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_313
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 177
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_314
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 108
+        width: 108
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_315
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 181
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_316
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 183
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_317
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 184
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_318
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 184
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_319
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 136
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_320
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_321
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_322
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_323
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 162
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_324
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 163
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_325
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 156
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_326
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 156
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_327
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 156
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_328
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 156
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_329
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 139
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_330
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 138
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_331
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 138
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_332
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 139
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_333
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 118
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_334
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 118
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_335
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 119
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_336
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 119
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_337
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 118
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_338
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 118
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_339
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 118
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_340
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 118
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_341
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 117
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_342
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 119
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_343
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 118
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_344
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 116
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_345
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 106
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_346
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 75
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_347
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 75
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_348
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 74
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_349
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 74
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_350
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 74
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_351
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 89
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_352
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 89
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_353
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 88
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_354
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 88
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_355
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 88
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_356
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 88
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_357
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 74
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_358
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 56
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_359
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 56
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_360
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 59
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_361
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 59
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_362
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 59
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_363
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 59
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_364
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_365
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_366
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_367
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 66
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_368
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 66
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_369
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 66
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_370
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 66
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_371
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_372
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 11
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_373
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 11
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_374
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 11
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_375
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 11
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_376
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 11
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_377
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_378
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_379
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_380
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_381
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_382
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 43
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_383
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 43
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_384
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 42
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_385
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 11
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_386
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 11
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_387
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 12
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_388
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 12
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_389
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 12
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_390
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 12
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_391
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 13
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_392
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 13
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_393
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 13
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_394
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 12
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_395
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_396
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_397
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 9
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_398
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 10
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_399
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 9
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mm10_enemy_400
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 15
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

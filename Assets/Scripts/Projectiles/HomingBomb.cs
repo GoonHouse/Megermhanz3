@@ -18,7 +18,7 @@ public class HomingBomb : MonoBehaviour {
 	void Update () {
 		timer -= Time.deltaTime;
 		if (timer < 0) {
-			transform.position += transform.right * speed * Time.deltaTime;
+			rb.AddForce(transform.right * 5f);
 		}
 	}
 }
