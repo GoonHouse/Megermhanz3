@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class HomingBomb : MonoBehaviour {
@@ -18,7 +18,7 @@ public class HomingBomb : MonoBehaviour {
 	void Update () {
 		timer -= Time.deltaTime;
 		if (timer < 0) {
-			rb.AddForce(transform.right * 5f);
+			transform.position += transform.right * speed * Time.deltaTime;
 		}
 	}
 }
