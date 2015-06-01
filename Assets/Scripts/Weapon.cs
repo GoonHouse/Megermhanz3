@@ -26,11 +26,14 @@ public class Weapon : MonoBehaviour {
 		if (HasEnoughAmmo() && CanFireAgain()) {
 			ammo -= ammoPerShot;
 			lastFired = Time.time;
-			Instantiate (
+			GameObject bul = (GameObject) Instantiate (
 				bullet, 
 			    transform.position, 
 				Quaternion.identity
 			);
+
+			// set the bullet's owner
+			bul.GetComponent<Projectile>().SetOwner(transform.parent.gameObject);
 			return true;
 		} else {
 			return false;
