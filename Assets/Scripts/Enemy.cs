@@ -2,9 +2,6 @@
 using System.Collections;
 
 public class Enemy : MonoBehaviour {
-
-	public int maxHP;
-	public int hp;
 	
 	public float distanceVar;
 
@@ -25,19 +22,5 @@ public class Enemy : MonoBehaviour {
 	void Update () {
 		//Try to return to start
 		rb.AddForce(start - (Vector2) transform.position);
-	}
-
-	void Hurt (int amount) {
-		if (amount > 0){
-			hp -= amount;
-		}
-
-		if (hp <= 0){
-			Die ("I got shot too much.");
-		}
-	}
-
-	void Die (string reason) {
-		Debug.Log ("I WAS TOO FABULOUS FOR THIS WORLD: " + reason);
 	}
 }

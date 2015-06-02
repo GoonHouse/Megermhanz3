@@ -71,6 +71,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  damage: 4
+  damageType: 0
+  owner: {fileID: 0}
 --- !u!212 &21266960
 SpriteRenderer:
   m_ObjectHideFlags: 1
