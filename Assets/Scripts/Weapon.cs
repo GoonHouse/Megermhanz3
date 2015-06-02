@@ -64,10 +64,5 @@ public class Weapon : MonoBehaviour {
 	// want to do something when out of ammo? reload? call mom? here you go.
 	void OutOfAmmo(){
 		Debug.Log ("OH GOD THERE ARE NO MORE BULLETS BUT I MUST INFLICT PAIN");
-	}	
-
-	public void ChangeWeapon(GameObject newWeapon) {
-		bullet = newWeapon;
-		ammo = 300;
 	}
 }
