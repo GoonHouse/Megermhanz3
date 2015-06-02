@@ -448,6 +448,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02f565badff0a7d4691de0fbbb9de687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 0
-  hp: 0
   distanceVar: 0
