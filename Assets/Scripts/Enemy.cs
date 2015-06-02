@@ -8,14 +8,12 @@ public class Enemy : MonoBehaviour {
 
 	private Vector2 start;
 	private Rigidbody2D rb;
-	private HurtHandler hurtHandler;
 
 	// Use this for initialization
 	void Start () {
 		//Set starting position
 		start = new Vector2 (transform.position.x, transform.position.y);
 		rb = gameObject.GetComponent<Rigidbody2D> ();
-		hurtHandler = gameObject.GetComponent<HurtHandler> ();
 	}
 	
 	// Update is called once per frame

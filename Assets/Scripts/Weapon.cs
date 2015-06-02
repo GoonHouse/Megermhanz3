@@ -10,16 +10,20 @@ public class Weapon : MonoBehaviour {
 	public int maxAmmo;
 	public float fireRate;
 
-	private float lastFired;
+	// we technically need this to be a tiny number to bypass first-fire restrictions on guns with large cooldown time
+	// @TODO: Find a way to make weapons not need -infinity to fire with a large fire rate.
+	private float lastFired = -Mathf.Infinity;
 
 	// Use this for initialization
 	void Start () {
-		
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		// @TODO: Put weapon cooldown code here.
+		// If a weapon has to be out in order to cool down (no magic pockets) then the lastFired thing should
+		// be handled here or something.
 	}
 
 	public bool Shoot (){
@@ -33,7 +37,12 @@ public class Weapon : MonoBehaviour {
 			);
 
 			// set the bullet's owner
-			bul.GetComponent<Projectile>().SetOwner(transform.parent.gameObject);
+			Projectile bulProjectile = bul.GetComponent<Projectile>();
+			if(bulProjectile != null){
+				bulProjectile.SetOwner(transform.parent.gameObject);
+			} else {
+				Debug.Log ("Shot an object that wasn't a projectile: " + bul.name);
+			}
 			return true;
 		} else {
 			return false;
@@ -57,7 +66,7 @@ public class Weapon : MonoBehaviour {
 	// we do this as a function because energy weapons (plasma rifle)
 	// might use a cooldown instead of ammo
 	public bool CanFireAgain(){
-		return lastFired < Time.time + fireRate;
+		return (lastFired + fireRate) < Time.time;
 	}
 
 	// == Function hooks and overloads.
