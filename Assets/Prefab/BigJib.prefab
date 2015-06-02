@@ -10,6 +10,8 @@ GameObject:
   - 4: {fileID: 441182}
   - 212: {fileID: 21216750}
   - 114: {fileID: 11459864}
+  - 50: {fileID: 5061600}
+  - 61: {fileID: 6124472}
   m_Layer: 0
   m_Name: BigJib
   m_TagString: Untagged
@@ -29,6 +31,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5061600
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198104}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+--- !u!61 &6124472
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198104}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: .119999997, y: .119999997}
 --- !u!114 &11459864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -41,13 +71,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   big: 1
-  sprite0: {fileID: 21300000, guid: bbe8e4e771eb4d142b9b7d1e857fc68d, type: 3}
-  sprite1: {fileID: 21300002, guid: bbe8e4e771eb4d142b9b7d1e857fc68d, type: 3}
-  sprite2: {fileID: 21300004, guid: bbe8e4e771eb4d142b9b7d1e857fc68d, type: 3}
-  sprite3: {fileID: 21300006, guid: bbe8e4e771eb4d142b9b7d1e857fc68d, type: 3}
-  sprite4: {fileID: 21300008, guid: bbe8e4e771eb4d142b9b7d1e857fc68d, type: 3}
-  sprite5: {fileID: 21300010, guid: bbe8e4e771eb4d142b9b7d1e857fc68d, type: 3}
-  sprite6: {fileID: 21300012, guid: bbe8e4e771eb4d142b9b7d1e857fc68d, type: 3}
 --- !u!212 &21216750
 SpriteRenderer:
   m_ObjectHideFlags: 1

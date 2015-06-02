@@ -12,6 +12,10 @@ public class HurtHandler : MonoBehaviour {
 	public int maxHP;
 	public int hp;
 
+	
+	public int jibAmount;
+	public GameObject JibFire;
+
 	public void Hurt (int amount, GameObject source, DamageType damageType) {
 		if (amount > 0){
 			hp -= amount;
@@ -25,6 +29,8 @@ public class HurtHandler : MonoBehaviour {
 	
 	void Die (string reason) {
 		Debug.Log ("I WAS TOO FABULOUS FOR THIS WORLD: " + reason);
+		GameObject JibObject = Instantiate (JibFire, transform.position, Quaternion.identity) as GameObject;
+		JibObject.GetComponent<JibFire> ().jibs = jibAmount;
 		Destroy (transform.gameObject);
 	}
 
