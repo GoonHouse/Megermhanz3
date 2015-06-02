@@ -200,10 +200,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 11484718, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 182116, guid: d6ed83283f841d74782968056c5bb41e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
   m_IsPrefabParent: 0
@@ -245,10 +241,6 @@ Prefab:
     - target: {fileID: 401198, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11408186, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}
-      propertyPath: jibAmount
-      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}

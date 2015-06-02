@@ -19,6 +19,7 @@ public class HurtHandler : MonoBehaviour {
 	public void Hurt (int amount, GameObject source, DamageType damageType) {
 		if (amount > 0){
 			hp -= amount;
+			GetComponent<AudioSource>().Play ();
 			Debug.Log ("OW!" + amount);
 		}
 		
