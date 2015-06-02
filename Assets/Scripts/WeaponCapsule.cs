@@ -5,7 +5,7 @@ public class WeaponCapsule : MonoBehaviour {
 
 	//public GameObject capsuleContent;
 	public GameObject capsuleWeapon;
-	public GameObject capsuleContent;
+	private GameObject capsuleContent;
 
 	// Use this for initialization
 	void Start () {
