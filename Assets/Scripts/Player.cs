@@ -19,8 +19,6 @@ public class Player : MonoBehaviour {
 	private float shotTimer = 0f;
 	public float shotVal = 3f;
 
-	private int jibCount = 0;
-
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
@@ -96,15 +94,5 @@ public class Player : MonoBehaviour {
 		// tell the player to work with the object
 		weapon = newWeapon.GetComponent<Weapon> ();
 		return true;
-	}
-
-
-	public int GetJib() {
-		return jibCount;
-	}
-
-	public void AddJib(int inJibs) {
-		jibCount += inJibs;
-		Debug.Log (jibCount);
 	}
 }

@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-public class Jib : MonoBehaviour {
+public class Scrap : MonoBehaviour {
 
 	private SpriteRenderer sr;
 	public bool big;
+
+	private int value = 1;
+	private int bigMultiplier = 5;
+
 	static Sprite[] jibSprites;
 
 	// Use this for initialization
@@ -25,12 +29,13 @@ public class Jib : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D (Collision2D col) {
-		if (col.gameObject.tag == "Player") {
-			int count = 1;
+		ScrapHandler sh = col.gameObject.GetComponent<ScrapHandler> ();
+		if (sh != null) {
+			int amount = value;
 			if (big) {
-				count = 5;
+				amount *= bigMultiplier;
 			}
-			col.gameObject.GetComponent<Player>().AddJib(count);
+			sh.AddScrap(amount);
 			Destroy (gameObject);
 		}
 	}

@@ -13,7 +13,7 @@ GameObject:
   - 50: {fileID: 5041624}
   - 61: {fileID: 6186678}
   m_Layer: 0
-  m_Name: SmallJib
+  m_Name: SmallScrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
