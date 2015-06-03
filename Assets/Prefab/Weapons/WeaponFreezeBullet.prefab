@@ -11,7 +11,7 @@ GameObject:
   - 114: {fileID: 11444752}
   - 212: {fileID: 21277154}
   m_Layer: 0
-  m_Name: WeaponHelechopter
+  m_Name: WeaponFreezeBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,11 +40,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec496fa0b01597948b403b22c9c47988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 146692, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}
+  bullet: {fileID: 122552, guid: 1bbc88af0880afb47a1e9aebf22151d0, type: 2}
   ammo: 100
   ammoPerShot: 1
   maxAmmo: 200
-  fireRate: 5
+  fireRate: .300000012
 --- !u!212 &21277154
 SpriteRenderer:
   m_ObjectHideFlags: 1

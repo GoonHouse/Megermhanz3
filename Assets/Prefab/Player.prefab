@@ -1,22 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &101684
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 404136}
-  - 114: {fileID: 11469512}
-  - 212: {fileID: 21286834}
-  m_Layer: 0
-  m_Name: WeaponNormalBullet
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &110352
 GameObject:
   m_ObjectHideFlags: 0
@@ -33,6 +16,7 @@ GameObject:
   - 95: {fileID: 9545128}
   - 114: {fileID: 11417934}
   - 82: {fileID: 8205854}
+  - 114: {fileID: 11414722}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -40,18 +24,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &404136
-Transform:
-  m_ObjectHideFlags: 1
+--- !u!1 &154478
+GameObject:
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101684}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
-  m_Children: []
-  m_Father: {fileID: 478580}
-  m_RootOrder: 0
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495816}
+  - 114: {fileID: 11478808}
+  m_Layer: 0
+  m_Name: Weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &478580
 Transform:
   m_ObjectHideFlags: 1
@@ -59,11 +47,23 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.13000011, y: 1.09000003, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children:
-  - {fileID: 404136}
+  - {fileID: 495816}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &495816
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 478580}
   m_RootOrder: 0
 --- !u!50 &5021930
 Rigidbody2D:
@@ -192,6 +192,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11414722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35afe97a24cde1045943999c2933ddd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetOnHurt: 1
+  target: {fileID: 0}
 --- !u!114 &11417934
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -207,22 +220,6 @@ MonoBehaviour:
   hp: 30
   jibAmount: 10
   JibFire: {fileID: 164316, guid: 2f61a17072a14a2448ca65c235662ee9, type: 2}
---- !u!114 &11469512
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec496fa0b01597948b403b22c9c47988, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 182116, guid: d6ed83283f841d74782968056c5bb41e, type: 2}
-  ammo: 100
-  ammoPerShot: 1
-  maxAmmo: 200
-  fireRate: .100000001
 --- !u!114 &11476040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -234,12 +231,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a821a4a2d0e974439d83a2caef3a316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 0}
+  weapon: {fileID: 11478808}
   jumpBox: {fileID: 6159100}
   speed: 11
   jumpForce: 200
   jumps: 1
   maxJumps: 3
+--- !u!114 &11478808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec496fa0b01597948b403b22c9c47988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 182116, guid: d6ed83283f841d74782968056c5bb41e, type: 2}
+  ammo: 300
+  ammoPerShot: 1
+  maxAmmo: 900
+  fireRate: 1
 --- !u!212 &21282542
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -265,32 +278,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300014, guid: 48264093ded105c48aba79276dbdbd47, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!212 &21286834
-SpriteRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101684}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ac4646d10368a484ba991f7eef530dab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
