@@ -87,6 +87,22 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &81204546 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 110352, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
+  m_PrefabInternal: {fileID: 354518126}
+--- !u!114 &81204547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 81204546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eb9cbf37515d6943a8a2ff0d45c7cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  napalmBullet: {fileID: 182116, guid: d6ed83283f841d74782968056c5bb41e, type: 2}
 --- !u!1 &344843339
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,7 +214,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 478580, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
@@ -328,7 +344,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
 --- !u!1001 &1510777748
 Prefab:
   m_ObjectHideFlags: 0
@@ -368,6 +384,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11437646, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
+      propertyPath: capsuleWeapon
+      value: 
+      objectReference: {fileID: 153432, guid: 25e980f00046d4f48bc18cae8bc9e7db, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
   m_IsPrefabParent: 0

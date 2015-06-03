@@ -74,4 +74,13 @@ public class Weapon : MonoBehaviour {
 	void OutOfAmmo(){
 		Debug.Log ("OH GOD THERE ARE NO MORE BULLETS BUT I MUST INFLICT PAIN");
 	}
+
+	//These two are interfaces that get overridden by the specific weapons!
+	public void TriggerUp() {}
+	public void TriggerDown() {}
+
+	//Tell meghermhan's animator that he shot something, so be in the shoot animation
+	public void AnimShoot() {
+		gameObject.transform.parent.GetComponent<Player> ().SetShooting ();
+	}
 }

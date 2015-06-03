@@ -20,11 +20,13 @@ public class Player : MonoBehaviour {
 	private float shotVal = 5f;
 
 	private int jibCount = 0;
+	private NapalmWeapon napalm;
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
+		napalm = GetComponent<NapalmWeapon> ();
 	}
 	
 	// Update is called once per frame
@@ -48,12 +50,12 @@ public class Player : MonoBehaviour {
 		}
 
 		// shooting
-		if (Input.GetButton ("Fire1")) {
-			bool didShot = weapon.Shoot();
-			if (didShot) {
-				shotTimer = shotVal;
-				anim.SetBool("shot",true);
-			}
+		if (Input.GetButtonDown ("Fire1")) {
+			napalm.TriggerDown();
+		}
+
+		if (Input.GetButtonUp ("Fire1")) {
+			napalm.TriggerUp ();
 		}
 	}
 
@@ -88,5 +90,10 @@ public class Player : MonoBehaviour {
 	public void AddJib(int inJibs) {
 		jibCount += inJibs;
 		Debug.Log (jibCount);
+	}
+
+	public void SetShooting() {
+		shotTimer = shotVal;
+		anim.SetBool("shot",true);
 	}
 }
