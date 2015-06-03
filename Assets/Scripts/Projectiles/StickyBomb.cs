@@ -6,12 +6,13 @@ public class StickyBomb : Projectile {
 	private float timer = 1;
 	private bool isAttached = false;
 
-	void Update (){
-
+	new void Update (){
+		Debug.Log ("doin it well?");
 	}
 
-	void OnCollisionEnter2D (Collision2D col) {
-		if(col.gameObject != owner && col.gameObject != transform.parent){
+	new void OnCollisionEnter2D (Collision2D col) {
+		if( !isAttached && col.gameObject != owner ){
+		//if(col.gameObject != owner && col.gameObject != transform.parent){
 			// we could do impact damage, if we were assholes
 			Attach (col.gameObject);
 		}
@@ -19,9 +20,9 @@ public class StickyBomb : Projectile {
 
 	public void Attach (GameObject newParent){
 		Debug.Log ("Attached to " + newParent.name);
-		gameObject.transform.localScale = new Vector3(1,1,1);
 		transform.parent = newParent.transform;
-		transform.localPosition = new Vector3 (0.0f, 0.0f, 0.0f);
+		transform.localScale = new Vector3(1.0f,1.0f,1.0f);
+		//transform.localPosition = new Vector3 (0.0f, 0.0f, 0.0f);
 		isAttached = true;
 	}
 }
