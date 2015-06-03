@@ -17,7 +17,10 @@ public class SceneManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		HurtHandler hh = playerToWatch.GetComponent<HurtHandler> ();
-		playerStatusText.text = playerToWatch.name + "\n( " + hh.hp.ToString () + " / " + hh.maxHP.ToString () + " )";
+		string playerStatus = playerToWatch.name + "\n( " + hh.hp.ToString () + " / " + hh.maxHP.ToString () + " )";
+		playerStatus += " [ " + playerToWatch.weapon.ammo + " / " + playerToWatch.weapon.maxAmmo + " ] ";
+		playerStatus += "\nScrap: " + playerToWatch.GetComponent<Player>().GetJib ();
+		playerStatusText.text = playerStatus;
 
 		TargetHandler th = playerToWatch.GetComponent<TargetHandler> ();
 		if (th != null && th.target != null) {
