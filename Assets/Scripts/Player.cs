@@ -19,6 +19,7 @@ public class Player : MonoBehaviour {
 	private float shotTimer = 0f;
 	private float shotVal = 5f;
 
+	private int jibCount = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -47,12 +48,12 @@ public class Player : MonoBehaviour {
 		}
 
 		// shooting
-		if (Input.GetButton ("Fire1")) {
-			bool didShot = weapon.Shoot();
-			if (didShot) {
-				shotTimer = shotVal;
-				anim.SetBool("shot",true);
-			}
+		if (Input.GetButtonDown ("Fire1")) {
+			weapon.TriggerDown();
+		}
+
+		if (Input.GetButtonUp ("Fire1")) {
+			weapon.TriggerUp ();
 		}
 	}
 
@@ -76,5 +77,21 @@ public class Player : MonoBehaviour {
 		// tell the player to work with the object
 		weapon = newWeapon.GetComponent<Weapon> ();
 		return true;
+	}
+
+
+
+	public int GetJib() {
+		return jibCount;
+	}
+
+	public void AddJib(int inJibs) {
+		jibCount += inJibs;
+		Debug.Log (jibCount);
+	}
+
+	public void SetShooting() {
+		shotTimer = shotVal;
+		anim.SetBool("shot",true);
 	}
 }

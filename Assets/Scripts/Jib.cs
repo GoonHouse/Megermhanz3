@@ -22,12 +22,16 @@ public class Jib : MonoBehaviour {
 		}
 
 		sr.sprite = jibSprites [rnd];
-
-
 	}
-	
-	// Update is called once per frame
-	void Update () {
 
+	void OnCollisionEnter2D (Collision2D col) {
+		if (col.gameObject.tag == "Player") {
+			int count = 1;
+			if (big) {
+				count = 5;
+			}
+			col.gameObject.GetComponent<Player>().AddJib(count);
+			Destroy (gameObject);
+		}
 	}
 }
