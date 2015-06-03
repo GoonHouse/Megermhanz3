@@ -20,13 +20,11 @@ public class Player : MonoBehaviour {
 	private float shotVal = 5f;
 
 	private int jibCount = 0;
-	private NapalmWeapon napalm;
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
-		napalm = GetComponent<NapalmWeapon> ();
 	}
 	
 	// Update is called once per frame
@@ -51,11 +49,11 @@ public class Player : MonoBehaviour {
 
 		// shooting
 		if (Input.GetButtonDown ("Fire1")) {
-			napalm.TriggerDown();
+			weapon.TriggerDown();
 		}
 
 		if (Input.GetButtonUp ("Fire1")) {
-			napalm.TriggerUp ();
+			weapon.TriggerUp ();
 		}
 	}
 
