@@ -30,6 +30,7 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		UpdateControls ();
+		GetComponent<TargetHandler> ().TargetClosestEnemy ();
 	}
 
 	void UpdateControls() {

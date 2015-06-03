@@ -9,6 +9,7 @@ public class HomingBomb : Projectile {
 	void Update () {
 		timer -= Time.deltaTime;
 		if (timer < 0) {
+			transform.LookAt(owner.gameObject.GetComponent<TargetHandler>().target.transform);
 			transform.position += transform.right * speed * Time.deltaTime;
 		}
 	}
