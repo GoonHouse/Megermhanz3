@@ -52,6 +52,10 @@ public class Player : MonoBehaviour {
 			weapon.TriggerDown();
 		}
 
+		if (Input.GetButton ("Fire1")) {
+			weapon.TriggerHold();
+		}
+
 		if (Input.GetButtonUp ("Fire1")) {
 			weapon.TriggerUp ();
 		}

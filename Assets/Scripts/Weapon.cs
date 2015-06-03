@@ -76,8 +76,18 @@ public class Weapon : MonoBehaviour {
 	}
 
 	//These two are interfaces that get overridden by the specific weapons!
-	public void TriggerUp() {}
-	public void TriggerDown() {}
+	public void TriggerUp() {
+
+	}
+	public void TriggerDown() {
+
+	}
+	public void TriggerHold() {
+		bool didShot = Shoot ();
+		if (didShot) {
+			transform.parent.GetComponent<Animator>().SetBool ("shot", true);
+		}
+	}
 
 	//Tell meghermhan's animator that he shot something, so be in the shoot animation
 	public void AnimShoot() {
