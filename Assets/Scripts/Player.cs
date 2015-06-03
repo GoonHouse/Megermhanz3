@@ -61,14 +61,14 @@ public class Player : MonoBehaviour {
 		}
 	}
 
-	void SetShooting(bool doIShoot) {
-		if (doIShoot) {
+	void SetShooting(bool didIShoot) {
+		if (didIShoot) {
 			shotTimer = shotVal;
 		}
 	}
 
 	void AnimationUpdate() {
-		anim.SetFloat ("speed", Input.GetAxis ("Horizontal"));
+		anim.SetFloat ("speed", Mathf.Abs(Input.GetAxis ("Horizontal")));
 		if (shotTimer > 0) {
 			anim.SetBool ("shoot", true);
 		} else {
