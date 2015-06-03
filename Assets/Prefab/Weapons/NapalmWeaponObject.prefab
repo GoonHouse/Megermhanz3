@@ -40,7 +40,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eb9cbf37515d6943a8a2ff0d45c7cbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  napalmBullet: {fileID: 182116, guid: d6ed83283f841d74782968056c5bb41e, type: 2}
+  bullet: {fileID: 0}
+  ammo: 0
+  ammoPerShot: 0
+  maxAmmo: 0
+  fireRate: 0
+  napalmBullet: {fileID: 122552, guid: 1bbc88af0880afb47a1e9aebf22151d0, type: 2}
 --- !u!212 &21245856
 SpriteRenderer:
   m_ObjectHideFlags: 1

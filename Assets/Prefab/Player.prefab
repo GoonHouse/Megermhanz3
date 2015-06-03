@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a821a4a2d0e974439d83a2caef3a316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 11484718}
+  weapon: {fileID: 11428164, guid: 25e980f00046d4f48bc18cae8bc9e7db, type: 2}
   jumpBox: {fileID: 6159100}
   speed: 11
   jumpForce: 200
