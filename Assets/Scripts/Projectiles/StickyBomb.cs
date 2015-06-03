@@ -7,7 +7,7 @@ public class StickyBomb : Projectile {
 	private bool isAttached = false;
 
 	new void Update (){
-		Debug.Log ("doin it well?");
+		//Debug.Log ("doin it well?");
 	}
 
 	new void OnCollisionEnter2D (Collision2D col) {

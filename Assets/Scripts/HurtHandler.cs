@@ -20,6 +20,13 @@ public class HurtHandler : MonoBehaviour {
 	public GameObject screenCanvas;
 	public GameObject screenCamera;
 
+	public void Heal (int amount){
+		hp += amount;
+		if (hp > maxHP) {
+			hp = maxHP;
+		}
+	}
+
 	public void Hurt (int amount, GameObject source, DamageType damageType) {
 		if (amount > 0){
 			hp -= amount;
