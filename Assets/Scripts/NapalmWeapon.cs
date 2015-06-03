@@ -58,7 +58,6 @@ public class NapalmWeapon : Weapon {
 			bul.gameObject.GetComponent<Projectile>().SetOwner(gameObject);
 			ammoCount -= ammoPerShot;
 			shotCount = shotAllowed;
-			gameObject.GetComponent<Player>().SetShooting();
 		}
 	}
 }

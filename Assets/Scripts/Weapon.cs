@@ -14,11 +14,6 @@ public class Weapon : MonoBehaviour {
 	// @TODO: Find a way to make weapons not need -infinity to fire with a large fire rate.
 	private float lastFired = -Mathf.Infinity;
 
-	// Use this for initialization
-	void Start () {
-
-	}
-	
 	// Update is called once per frame
 	void Update () {
 		// @TODO: Put weapon cooldown code here.
@@ -76,21 +71,14 @@ public class Weapon : MonoBehaviour {
 	}
 
 	//These two are interfaces that get overridden by the specific weapons!
-	public void TriggerUp() {
-
+	public bool TriggerUp() {
+		return false;
 	}
-	public void TriggerDown() {
-
+	public bool TriggerDown() {
+		return false;
 	}
-	public void TriggerHold() {
+	public bool TriggerHold() {
 		bool didShot = Shoot ();
-		if (didShot) {
-			transform.parent.GetComponent<Animator>().SetBool ("shot", true);
-		}
-	}
-
-	//Tell meghermhan's animator that he shot something, so be in the shoot animation
-	public void AnimShoot() {
-		gameObject.transform.parent.GetComponent<Player> ().SetShooting ();
+		return didShot;
 	}
 }

@@ -17,7 +17,7 @@ public class Player : MonoBehaviour {
 	private Animator anim;
 
 	private float shotTimer = 0f;
-	private float shotVal = 5f;
+	public float shotVal = 3f;
 
 	private int jibCount = 0;
 
@@ -31,12 +31,11 @@ public class Player : MonoBehaviour {
 	void Update () {
 		UpdateControls ();
 		GetComponent<TargetHandler> ().TargetClosestEnemy ();
+		AnimationUpdate ();
 	}
 
 	void UpdateControls() {
 		shotTimer -= Time.deltaTime;
-
-		if (shotTimer < 0f) {anim.SetBool("shot",false);}
 
 		// left / right movement
 		rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
@@ -50,15 +49,31 @@ public class Player : MonoBehaviour {
 
 		// shooting
 		if (Input.GetButtonDown ("Fire1")) {
-			weapon.TriggerDown();
+			SetShooting(weapon.TriggerDown());
 		}
 
 		if (Input.GetButton ("Fire1")) {
-			weapon.TriggerHold();
+			SetShooting(weapon.TriggerHold());
 		}
 
 		if (Input.GetButtonUp ("Fire1")) {
-			weapon.TriggerUp ();
+			SetShooting(weapon.TriggerUp ());
+		}
+	}
+
+	void SetShooting(bool doIShoot) {
+		if (doIShoot) {
+			shotTimer = shotVal;
+		}
+	}
+
+	void AnimationUpdate() {
+		Debug.Log ("ANIMATIONUPDATE RUNNING");
+		anim.SetFloat ("speed", Input.GetAxis ("Horizontal"));
+		if (shotTimer > 0) {
+			anim.SetBool ("shoot", true);
+		} else {
+			anim.SetBool ("shoot", false);
 		}
 	}
 
@@ -85,7 +100,6 @@ public class Player : MonoBehaviour {
 	}
 
 
-
 	public int GetJib() {
 		return jibCount;
 	}
@@ -93,10 +107,5 @@ public class Player : MonoBehaviour {
 	public void AddJib(int inJibs) {
 		jibCount += inJibs;
 		Debug.Log (jibCount);
-	}
-
-	public void SetShooting() {
-		shotTimer = shotVal;
-		anim.SetBool("shot",true);
 	}
 }
