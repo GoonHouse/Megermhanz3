@@ -5,10 +5,13 @@ public class TargetHandler : MonoBehaviour {
 
 	public bool targetOnHurt;
 	public GameObject target;
+	public GameObject targetPrototype;
+
+	private GameObject targetObject;
 
 	// Use this for initialization
 	void Start () {
-	
+		SpawnTarget ();
 	}
 	
 	// Update is called once per frame
@@ -16,8 +19,19 @@ public class TargetHandler : MonoBehaviour {
 	
 	}
 
+	void SpawnTarget(){
+		targetObject = (GameObject) Instantiate (targetPrototype, transform.position, Quaternion.identity);
+	}
+
 	public bool SetTarget(GameObject newTarget){
 		target = newTarget;
+
+		if (targetObject == null) {
+			SpawnTarget();
+		}
+		targetObject.transform.parent = target.transform;
+		targetObject.transform.localPosition = new Vector3 (0.0f, 0.0f, 0.0f);
+
 		return true;
 	}
 
@@ -34,6 +48,6 @@ public class TargetHandler : MonoBehaviour {
 				bestTarget = potentialTarget;
 			}
 		}
-		target = bestTarget.gameObject;
+		SetTarget (bestTarget.gameObject);
 	}
 }
