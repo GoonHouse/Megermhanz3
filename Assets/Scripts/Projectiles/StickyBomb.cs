@@ -19,6 +19,7 @@ public class StickyBomb : Projectile {
 
 	public void Attach (GameObject newParent){
 		Debug.Log ("Attached to " + newParent.name);
+		gameObject.transform.localScale = new Vector3(1,1,1);
 		transform.parent = newParent.transform;
 		transform.localPosition = new Vector3 (0.0f, 0.0f, 0.0f);
 		isAttached = true;
