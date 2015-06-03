@@ -508,10 +508,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11437646, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
-      propertyPath: capsuleWeapon
-      value: 
-      objectReference: {fileID: 178894, guid: 66f22a95e15918f47a144a118e0a5ded, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
   m_IsPrefabParent: 0
@@ -667,7 +663,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401198, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 146692, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}
       propertyPath: m_Name
