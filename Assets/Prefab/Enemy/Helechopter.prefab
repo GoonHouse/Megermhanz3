@@ -29,7 +29,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146692}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.08999991, y: 2.53999996, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -175,6 +175,9 @@ MonoBehaviour:
   hp: 30
   jibAmount: 50
   JibFire: {fileID: 164316, guid: 2f61a17072a14a2448ca65c235662ee9, type: 2}
+  hitEffect: {fileID: 101220, guid: 8af0d3e00fd4f924b97ae40328c045e6, type: 2}
+  screenCanvas: {fileID: 0}
+  screenCamera: {fileID: 0}
 --- !u!212 &21241940
 SpriteRenderer:
   m_ObjectHideFlags: 1

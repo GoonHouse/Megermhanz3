@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public enum DamageType {
 	Normal,
@@ -15,11 +16,17 @@ public class HurtHandler : MonoBehaviour {
 	
 	public int jibAmount;
 	public GameObject JibFire;
+	public GameObject hitEffect;
+	public GameObject screenCanvas;
+	public GameObject screenCamera;
 
 	public void Hurt (int amount, GameObject source, DamageType damageType) {
 		if (amount > 0){
 			hp -= amount;
 			GetComponent<AudioSource>().Play ();
+
+			//hit text
+			SpawnText (amount, transform.position);
 
 			// do target handling stuff if we can
 			TargetHandler th = source.GetComponent<TargetHandler> ();
@@ -44,5 +51,16 @@ public class HurtHandler : MonoBehaviour {
 
 	public void OnHurt(int amount, GameObject source, DamageType damageType){
 		// this is how we would do something neat
+	}
+
+	public void SpawnText(float points, Vector3 spawnPos){
+		Vector3 scrPos = RectTransformUtility.WorldToScreenPoint (screenCamera.GetComponent<Camera>(), spawnPos);
+		GameObject ngui = (GameObject) Instantiate (
+			hitEffect,
+			scrPos,
+			Quaternion.identity
+			);
+		ngui.GetComponent<Text>().text = points.ToString ();
+		ngui.transform.parent = screenCanvas.transform;
 	}
 }

@@ -382,6 +382,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11408186, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}
+      propertyPath: screenCanvas
+      value: 
+      objectReference: {fileID: 1946141771}
+    - target: {fileID: 11408186, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}
+      propertyPath: screenCamera
+      value: 
+      objectReference: {fileID: 1161052105}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}
   m_IsPrefabParent: 0

@@ -68,7 +68,6 @@ public class Player : MonoBehaviour {
 	}
 
 	void AnimationUpdate() {
-		Debug.Log ("ANIMATIONUPDATE RUNNING");
 		anim.SetFloat ("speed", Input.GetAxis ("Horizontal"));
 		if (shotTimer > 0) {
 			anim.SetBool ("shoot", true);
