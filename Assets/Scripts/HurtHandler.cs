@@ -20,6 +20,13 @@ public class HurtHandler : MonoBehaviour {
 		if (amount > 0){
 			hp -= amount;
 			GetComponent<AudioSource>().Play ();
+
+			// do target handling stuff if we can
+			TargetHandler th = source.GetComponent<TargetHandler> ();
+			if (th != null && th.targetOnHurt) {
+				th.SetTarget(this.gameObject);
+			}
+
 			Debug.Log ("OW!" + amount);
 		}
 		
