@@ -569,7 +569,7 @@ Prefab:
     - target: {fileID: 11437646, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
       propertyPath: capsuleWeapon
       value: 
-      objectReference: {fileID: 178894, guid: 3819fce0fe01bd542b8d0f1dee5bda4d, type: 2}
+      objectReference: {fileID: 178894, guid: a77af62e9f568a34fb01f5dedc1b50ac, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
   m_IsPrefabParent: 0
@@ -624,6 +624,10 @@ Prefab:
       propertyPath: screenCamera
       value: 
       objectReference: {fileID: 1161052105}
+    - target: {fileID: 11478808, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 182116, guid: d6ed83283f841d74782968056c5bb41e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f74739c4e5180604ea360a8b90e4ff4a, type: 2}
   m_IsPrefabParent: 0
@@ -788,11 +792,11 @@ Prefab:
     - target: {fileID: 11408186, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}
       propertyPath: screenCanvas
       value: 
-      objectReference: {fileID: 1946141771}
+      objectReference: {fileID: 0}
     - target: {fileID: 11408186, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}
       propertyPath: screenCamera
       value: 
-      objectReference: {fileID: 1161052105}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dfb0380f85f98e241a16dbe7b4b097de, type: 2}
   m_IsPrefabParent: 0

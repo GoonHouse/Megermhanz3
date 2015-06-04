@@ -5,7 +5,8 @@ using UnityEngine.UI;
 public enum DamageType {
 	Normal,
 	Fire,
-	Electric
+	Electric,
+	Bee
 }
 
 public class HurtHandler : MonoBehaviour {
