@@ -21,10 +21,6 @@ public class StickyBomb : Projectile {
 				Boom ();
 			}
 		}
-
-		if (boomed) {
-			DestroyImmediate (gameObject);
-		}
 	}
 
 	new void OnCollisionEnter2D (Collision2D col) {
@@ -46,11 +42,15 @@ public class StickyBomb : Projectile {
 
 	void Boom() {
 		GameObject bullet = Instantiate (explosion, transform.position, Quaternion.identity) as GameObject;
-		bullet.GetComponent<Projectile>().SetOwner(owner);
+		bullet.GetComponent<ExplosionScript> ().SetOwner(owner);
 		boomed = true;
+
+		Destroy (gameObject);
 	}
 
 	void OnDestroy() {
-		Boom ();
+		if (!boomed) {
+			Boom ();
+		}
 	}
 }
