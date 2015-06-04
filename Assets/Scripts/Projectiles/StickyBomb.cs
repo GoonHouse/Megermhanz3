@@ -3,18 +3,28 @@ using System.Collections;
 
 public class StickyBomb : Projectile {
 
-	private float timer = 1;
 	private bool isAttached = false;
 	private Rigidbody2D rb;
+	public GameObject explosion;
+	public float countDown;
+	private bool boomed = false;
 
 	new void Start() {
 		rb = gameObject.GetComponent<Rigidbody2D> ();
 	}
 
 	new void Update (){
-		Debug.Log ("doin it well?");
-		//TODO: Timer until the bomb explodes
-		
+		if (isAttached && !boomed) {
+			countDown -= Time.deltaTime;
+
+			if (countDown < 0f) {
+				Boom ();
+			}
+		}
+
+		if (boomed) {
+			DestroyImmediate (gameObject);
+		}
 	}
 
 	new void OnCollisionEnter2D (Collision2D col) {
@@ -32,5 +42,15 @@ public class StickyBomb : Projectile {
 		//transform.localScale = new Vector3(1.0f,1.0f,1.0f);
 		//transform.localPosition = new Vector3 (0.0f, 0.0f, 0.0f);
 		isAttached = true;
+	}
+
+	void Boom() {
+		GameObject bullet = Instantiate (explosion, transform.position, Quaternion.identity) as GameObject;
+		bullet.GetComponent<Projectile>().SetOwner(owner);
+		boomed = true;
+	}
+
+	void OnDestroy() {
+		Boom ();
 	}
 }
