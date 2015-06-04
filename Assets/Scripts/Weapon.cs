@@ -26,11 +26,9 @@ public class Weapon : MonoBehaviour {
 			ammo -= ammoPerShot;
 			lastFired = Time.time;
 
-
-
 			GameObject bul = (GameObject) Instantiate (
 				bullet, 
-				transform.parent.FindChild("WeaponAnchor").transform.position, 
+				transform.position, 
 				Quaternion.identity
 			);
 
