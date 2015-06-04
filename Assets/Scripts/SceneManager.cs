@@ -24,9 +24,9 @@ public class SceneManager : MonoBehaviour {
 		playerStatusText.text = playerStatus;
 
 		TargetHandler th = playerToWatch.GetComponent<TargetHandler> ();
-		if (th != null && th.target != null) {
-			HurtHandler thh = th.target.GetComponent<HurtHandler> ();
-			targetStatusText.text = th.target.name + "\n( " + thh.hp.ToString () + " / " + thh.maxHP.ToString () + " )";
+		if (th != null && th.GetTarget() != null) {
+			HurtHandler thh = th.GetTarget().GetComponent<HurtHandler> ();
+			targetStatusText.text = th.GetTarget().name + "\n( " + thh.hp.ToString () + " / " + thh.maxHP.ToString () + " )";
 		} else {
 			targetStatusText.text = "NO TARGET";
 		}

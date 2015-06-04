@@ -26,18 +26,17 @@ public class Weapon : MonoBehaviour {
 			ammo -= ammoPerShot;
 			lastFired = Time.time;
 
-
-
 			GameObject bul = (GameObject) Instantiate (
 				bullet, 
-				transform.parent.FindChild("WeaponAnchor").transform.position, 
+				transform.position, 
 				Quaternion.identity
 			);
 
 			// set the bullet's owner
 			Projectile bulProjectile = bul.GetComponent<Projectile>();
 			if(bulProjectile != null){
-				bulProjectile.SetOwner(transform.parent.gameObject);
+				// @WARNING: fuck the police
+				bulProjectile.SetOwner(transform.parent.gameObject.transform.parent.gameObject);
 			} else {
 				Debug.Log ("Shot an object that wasn't a projectile: " + bul.name);
 			}
