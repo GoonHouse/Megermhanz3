@@ -28,7 +28,6 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		UpdateControls ();
-		GetComponent<TargetHandler> ().TargetClosestEnemy ();
 		AnimationUpdate ();
 	}
 
@@ -87,9 +86,10 @@ public class Player : MonoBehaviour {
 	public bool ChangeWeapon(GameObject newWeapon) {
 		// destroy the current weapon
 		// @TODO: Have some sort of "inventory" for active / in-active weapons
-		Destroy (weapon.transform.gameObject);
+		GameObject anchor = transform.Find ("WeaponAnchor").gameObject;
+		Destroy (anchor.transform.GetChild(0));
 		// set the object to belong to the player
-		newWeapon.transform.parent = transform;
+		newWeapon.transform.parent = anchor.transform;
 		newWeapon.transform.localPosition = new Vector3 (0.0f, 0.0f, 0.0f);
 		// tell the player to work with the object
 		weapon = newWeapon.GetComponent<Weapon> ();

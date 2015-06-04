@@ -4,10 +4,12 @@ using System.Collections;
 public class TargetHandler : MonoBehaviour {
 
 	public bool targetOnHurt;
-	public GameObject target;
+	public bool alwaysSearchForTarget;
 	public GameObject targetPrototype;
+	public bool targetEnemies;
 
 	private GameObject targetObject;
+	private GameObject target;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +18,9 @@ public class TargetHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (alwaysSearchForTarget) {
+			TargetClosest();
+		}
 	}
 
 	void SpawnTarget(){
@@ -35,7 +39,16 @@ public class TargetHandler : MonoBehaviour {
 		return true;
 	}
 
-	public void TargetClosestEnemy (){
+	public GameObject GetTarget (){
+		return target;
+	}
+
+	public void TargetClosest (){
+		string tagToTarget = "Player";
+		if (targetEnemies) {
+			tagToTarget = "Enemy";
+		}
+
 		Transform[] enemies = UnityEngine.Object.FindObjectsOfType<Transform>();
 		Transform bestTarget = null;
 		float closestDistanceSqr = Mathf.Infinity;
@@ -43,7 +56,7 @@ public class TargetHandler : MonoBehaviour {
 		foreach(Transform potentialTarget in enemies){
 			Vector3 directionToTarget = potentialTarget.position - currentPosition;
 			float dSqrToTarget = directionToTarget.sqrMagnitude;
-			if(dSqrToTarget < closestDistanceSqr && potentialTarget.gameObject.tag == "Enemy"){
+			if(dSqrToTarget < closestDistanceSqr && potentialTarget.gameObject.tag == tagToTarget){
 				closestDistanceSqr = dSqrToTarget;
 				bestTarget = potentialTarget;
 			}
