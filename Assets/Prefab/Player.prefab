@@ -17,6 +17,7 @@ GameObject:
   - 114: {fileID: 11417934}
   - 82: {fileID: 8205854}
   - 114: {fileID: 11414722}
+  - 114: {fileID: 11448372}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -245,10 +246,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c6e83aa1109e9e4792874a276718f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 30
+  maxHP: 90
   hp: 30
   jibAmount: 10
   JibFire: {fileID: 164316, guid: 2f61a17072a14a2448ca65c235662ee9, type: 2}
+  hitEffect: {fileID: 0}
+  screenCanvas: {fileID: 0}
+  screenCamera: {fileID: 0}
+--- !u!114 &11448372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d3f9d30dec2ad479a1e5eb47e6a7ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrap: 0
 --- !u!114 &11476040
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -25,9 +25,12 @@ public class Weapon : MonoBehaviour {
 		if (HasEnoughAmmo() && CanFireAgain()) {
 			ammo -= ammoPerShot;
 			lastFired = Time.time;
+
+
+
 			GameObject bul = (GameObject) Instantiate (
 				bullet, 
-			    transform.position, 
+				transform.parent.FindChild("WeaponAnchor").transform.position, 
 				Quaternion.identity
 			);
 
