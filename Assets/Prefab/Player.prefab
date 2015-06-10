@@ -17,7 +17,6 @@ GameObject:
   - 114: {fileID: 11417934}
   - 82: {fileID: 8205854}
   - 114: {fileID: 11414722}
-  - 114: {fileID: 11467462}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -76,7 +75,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.61100006, y: 1.00699997, z: 0}
+  m_LocalPosition: {x: -10.0799999, y: 9.01000023, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 413488}
@@ -251,21 +250,9 @@ MonoBehaviour:
   hp: 30
   jibAmount: 10
   JibFire: {fileID: 164316, guid: 2f61a17072a14a2448ca65c235662ee9, type: 2}
-  hitEffect: {fileID: 0}
+  hitEffect: {fileID: 101220, guid: 8af0d3e00fd4f924b97ae40328c045e6, type: 2}
   screenCanvas: {fileID: 0}
   screenCamera: {fileID: 0}
---- !u!114 &11467462
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 110352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78d3f9d30dec2ad479a1e5eb47e6a7ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scrap: 0
 --- !u!114 &11476040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -299,7 +286,7 @@ MonoBehaviour:
   ammo: 300
   ammoPerShot: 1
   maxAmmo: 900
-  fireRate: 1
+  fireRate: .00999999978
 --- !u!212 &21282542
 SpriteRenderer:
   m_ObjectHideFlags: 1

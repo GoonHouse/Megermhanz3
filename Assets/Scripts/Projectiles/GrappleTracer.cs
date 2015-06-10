@@ -7,6 +7,7 @@ public class GrappleTracer : MonoBehaviour {
 	Rigidbody2D rb;
 	float speed = 20;
 	public GameObject hook;
+	public GameObject chain;
 
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
@@ -14,49 +15,47 @@ public class GrappleTracer : MonoBehaviour {
 	}
 
 	void Update() {
-		rb.velocity = new Vector2(speed, speed);
+		rb.velocity = new Vector2(0, speed);
 	}
 
-	void OnTriggerEnter2D (Collider2D col) {
-		if (col.IsTouchingLayers(LayerMask.GetMask("Ground"))) {
-			Attach();
+	void OnCollisionEnter2D (Collision2D col) {
+		if (col.gameObject.layer == LayerMask.NameToLayer("Ground")) {
+			Attach ();
 		}
 	}
 	
 	void Attach() {
 		//Make the hook
-		MakeHook ();
-		//Make the chains
-		int temp = chainNeeded (player, gameObject);
-		for (int i = 0; i < temp; i++) {
-			MakeChain(i);
+		GameObject attachTo = MakeHook ();
+
+		for (int i = 0; i < 5; i++) {
+			attachTo = MakeChain (attachTo);
 		}
-		//Attach last chain to player
-		AttachChain (temp);
+		LastChain (attachTo);
+
 		Destroy (gameObject);
 	}
 	
-	void MakeHook() {
+	GameObject MakeHook() {
 		GameObject theHook = Instantiate (hook, transform.position, Quaternion.identity) as GameObject;
-		theHook.GetComponent<HingeJoint2D> ().anchor = transform.position;
+		HingeJoint2D hj = theHook.GetComponent<HingeJoint2D> ();
+		hj.connectedAnchor = transform.position;
+		return theHook;
 	}
-	
-	void MakeChain( int chainNumber) {
-		
+
+	GameObject MakeChain (GameObject attachIn) {
+		GameObject theChain = Instantiate (chain, transform.position, Quaternion.identity) as GameObject;
+		HingeJoint2D hj = theChain.GetComponent<HingeJoint2D> ();
+		hj.connectedBody = attachIn.GetComponent<Rigidbody2D>();
+		hj.anchor = new Vector2 (.47f, 0);
+		hj.connectedAnchor = new Vector2 (-.26f, 0);
+		return theChain;
 	}
-	
-	void AttachChain(int chainToAttach) {
-		
-	}
-	
-	int chainNeeded(GameObject playerIn, GameObject hookIn) {
-		int chainAmount = 0;
-		Vector2 temp = playerIn.transform.position - hookIn.transform.position;
-		float temp2 = temp.magnitude;
-		while (temp2 >= 1) {
-			temp2--;
-			chainAmount++;
-		}
-		return chainAmount;
+
+	void LastChain(GameObject attachIn) {
+		HingeJoint2D hj2 = attachIn.AddComponent<HingeJoint2D>();
+		hj2.connectedBody = GameObject.FindGameObjectWithTag ("Player").GetComponent<Rigidbody2D>();
+		hj2.anchor = new Vector2 (-.34f, 0);
+		hj2.connectedAnchor = new Vector2 (.21f, .88f);
 	}
 }
