@@ -63,6 +63,7 @@ public class Weapon : MonoBehaviour {
 	// we do this as a function because energy weapons (plasma rifle)
 	// might use a cooldown instead of ammo
 	public bool CanFireAgain(){
+		Debug.Log ("I LOVE AMERICA");
 		return (lastFired + fireRate) < Time.time;
 	}
 
