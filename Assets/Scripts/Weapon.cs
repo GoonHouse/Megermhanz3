@@ -12,7 +12,7 @@ public class Weapon : MonoBehaviour {
 
 	// we technically need this to be a tiny number to bypass first-fire restrictions on guns with large cooldown time
 	// @TODO: Find a way to make weapons not need -infinity to fire with a large fire rate.
-	private float lastFired = -Mathf.Infinity;
+	public float lastFired = -Mathf.Infinity;
 
 	// Update is called once per frame
 	void Update () {
