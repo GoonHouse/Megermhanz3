@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: 458d45049958091498f65f234fe9f0cd
+timeCreated: 1433561497
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmx2-strikechaincharge_0
+    21300002: mmx2-strikechaincharge_1
+    21300004: mmx2-strikechaincharge_2
+    21300006: mmx2-strikechaincharge_3
+    21300008: mmx2-strikechaincharge_4
+    21300010: mmx2-strikechaincharge_5
+    21300012: mmx2-strikechaincharge_6
+    21300014: mmx2-strikechaincharge_7
+    21300016: mmx2-strikechaincharge_8
+    21300018: mmx2-strikechaincharge_10
+    21300020: mmx2-strikechaincharge_11
+    21300022: mmx2-strikechaincharge_12
+    21300024: mmx2-strikechaincharge_13
+    21300026: mmx2-strikechaincharge_14
+    21300028: mmx2-strikechaincharge_15
+    21300030: mmx2-strikechaincharge_16
+    21300032: mmx2-strikechaincharge_17
+    21300034: mmx2-strikechaincharge_18
+    21300036: mmx2-strikechaincharge_19
+    21300038: mmx2-strikechaincharge_20
+    21300040: mmx2-strikechaincharge_21
+    21300042: mmx2-strikechaincharge_22
+    21300044: mmx2-strikechaincharge_23
+    21300046: mmx2-strikechaincharge_24
+    21300048: mmx2-strikechaincharge_25
+    21300050: mmx2-strikechaincharge_26
+    21300052: mmx2-strikechaincharge_27
+    21300054: mmx2-strikechaincharge_28
+    21300056: mmx2-strikechaincharge_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mmx2-strikechaincharge_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 152
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 152
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 152
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 152
+        width: 78
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 152
+        width: 90
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_6
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 152
+        width: 102
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 152
+        width: 114
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_8
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 152
+        width: 126
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_10
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 103
+        width: 150
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_11
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 103
+        width: 144
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_12
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 103
+        width: 132
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_13
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 103
+        width: 120
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 55
+        width: 108
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_15
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 55
+        width: 96
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_16
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 55
+        width: 84
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_17
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 55
+        width: 72
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_18
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 55
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_19
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 55
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_20
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 70
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_21
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 55
+        width: 130
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_22
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 55
+        width: 118
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_23
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 106
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_24
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 6
+        width: 94
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_25
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 6
+        width: 82
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_26
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 6
+        width: 70
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 6
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_28
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 6
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mmx2-strikechaincharge_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 120
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 14, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
