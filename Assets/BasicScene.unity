@@ -593,7 +593,7 @@ Prefab:
     - target: {fileID: 11437646, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
       propertyPath: capsuleWeapon
       value: 
-      objectReference: {fileID: 178894, guid: e35eeb1d46720484f8b30b7a0db66804, type: 2}
+      objectReference: {fileID: 178894, guid: 65bc99ce02a45e64d9c77fd3950e4d4f, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 96245c79360ab1b41b5894d0a47abcf1, type: 2}
   m_IsPrefabParent: 0
