@@ -6,7 +6,9 @@ public class WeaponBassCannon : Weapon {
 	public float chargeTime;
 	
 	private bool isCharging;
-	private float chargedTime;
+	public float chargedTime;
+
+	public GameObject camera;
 
 	private AudioSource buildUp;
 	private AudioSource bassFire;
@@ -60,48 +62,29 @@ public class WeaponBassCannon : Weapon {
 	bool ChargeRelease (){
 		isCharging = false;
 		buildUp.Stop ();
-		return Shoot ();
-	}
-
-	public bool Shoot (){
-		if (HasEnoughAmmo() && CanFireAgain()) {
-			ammo -= ammoPerShot;
-			lastFired = Time.time;
-			
-			GameObject bul = (GameObject) Instantiate (
-				bullet, 
-				transform.position, 
-				Quaternion.identity
-				);
-			
-			// set the bullet's owner
-			Projectile bulProjectile = bul.GetComponent<Projectile>();
-			if(bulProjectile != null){
-				// @WARNING: fuck the police
-				bulProjectile.SetOwner(transform.parent.gameObject.transform.parent.gameObject);
-			} else {
-				Debug.Log ("Shot an object that wasn't a projectile: " + bul.name);
-			}
+		if (Shoot ()) {
+			camera.GetComponent<CameraShaker>().Shake();
 			return true;
 		} else {
 			return false;
 		}
+		return Shoot ();
 	}
 
 	// override this to only allow firing when we're fully charged
-	new public bool CanFireAgain(){
+	public override bool CanFireAgain(){
 		return chargedTime >= chargeTime;
 	}
 
 	//These two are interfaces that get overridden by the specific weapons!
-	new public bool TriggerUp() {
+	public override bool TriggerUp() {
 		return ChargeRelease ();
 	}
-	new public bool TriggerDown() {
+	public override bool TriggerDown() {
 		ChargeStart ();
 		return false;
 	}
-	new public bool TriggerHold() {
+	public override bool TriggerHold() {
 		return false;
 	}
 }

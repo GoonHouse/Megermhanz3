@@ -21,6 +21,7 @@ public class Player : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		weapon = transform.Find ("WeaponAnchor").GetChild(0).GetComponent<Weapon>();
 		rb = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
 	}
@@ -87,7 +88,7 @@ public class Player : MonoBehaviour {
 		// destroy the current weapon
 		// @TODO: Have some sort of "inventory" for active / in-active weapons
 		GameObject anchor = transform.Find ("WeaponAnchor").gameObject;
-		Destroy (anchor.transform.GetChild(0));
+		Destroy (anchor.transform.GetChild(0).gameObject);
 		// set the object to belong to the player
 		newWeapon.transform.parent = anchor.transform;
 		newWeapon.transform.localPosition = new Vector3 (0.0f, 0.0f, 0.0f);

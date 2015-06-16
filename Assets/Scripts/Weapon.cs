@@ -21,7 +21,7 @@ public class Weapon : MonoBehaviour {
 		// be handled here or something.
 	}
 
-	public bool Shoot (){
+	public virtual bool Shoot (){
 		if (HasEnoughAmmo() && CanFireAgain()) {
 			ammo -= ammoPerShot;
 			lastFired = Time.time;
@@ -51,7 +51,7 @@ public class Weapon : MonoBehaviour {
 	// by defining this, we allow this to be overwritten  in the event
 	// we need a gun that can still fire without the minimum ammount
 	// (think: burst fire modes)
-	public bool HasEnoughAmmo(){
+	public virtual bool HasEnoughAmmo(){
 		if (ammo - ammoPerShot > 0) {
 			return true;
 		} else {
@@ -62,25 +62,25 @@ public class Weapon : MonoBehaviour {
 
 	// we do this as a function because energy weapons (plasma rifle)
 	// might use a cooldown instead of ammo
-	public bool CanFireAgain(){
+	public virtual bool CanFireAgain(){
 		Debug.Log ("I LOVE AMERICA");
 		return (lastFired + fireRate) < Time.time;
 	}
 
 	// == Function hooks and overloads.
 	// want to do something when out of ammo? reload? call mom? here you go.
-	void OutOfAmmo(){
+	public virtual void OutOfAmmo(){
 		Debug.Log ("OH GOD THERE ARE NO MORE BULLETS BUT I MUST INFLICT PAIN");
 	}
 
 	//These two are interfaces that get overridden by the specific weapons!
-	public bool TriggerUp() {
+	public virtual bool TriggerUp() {
 		return false;
 	}
-	public bool TriggerDown() {
+	public virtual bool TriggerDown() {
 		return false;
 	}
-	public bool TriggerHold() {
+	public virtual bool TriggerHold() {
 		bool didShot = Shoot ();
 		return didShot;
 	}
