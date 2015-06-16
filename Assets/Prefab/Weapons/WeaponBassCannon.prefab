@@ -185,14 +185,10 @@ MonoBehaviour:
   ammoPerShot: 1
   maxAmmo: 200
   fireRate: .300000012
-  bullet: {fileID: 122552, guid: 209ef81b9ae78334993d81021ecff370, type: 2}
-  ammo: 100
-  ammoPerShot: 1
-  maxAmmo: 200
-  fireRate: .300000012
-  timeToCharge: 0
-  timeCharged: 0
-  isCharged: 0
+  lastFired: -Infinity
+  chargeTime: 5.30000019
+  chargedTime: 0
+  camera: {fileID: 0}
 --- !u!212 &21277154
 SpriteRenderer:
   m_ObjectHideFlags: 1
