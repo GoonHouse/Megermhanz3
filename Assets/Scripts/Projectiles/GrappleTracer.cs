@@ -20,13 +20,17 @@ public class GrappleTracer : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col) {
 		if (col.gameObject.layer == LayerMask.NameToLayer("Ground")) {
-			Attach ();
+			Attach (null);
+		}
+
+		if (col.gameObject.tag == "Enemy") {
+			Attach (col.gameObject);
 		}
 	}
 	
-	void Attach() {
+	void Attach(GameObject enemyAttach) {
 		//Make the hook
-		GameObject attachTo = MakeHook ();
+		GameObject attachTo = MakeHook (enemyAttach);
 
 		for (int i = 0; i < 5; i++) {
 			attachTo = MakeChain (attachTo);
@@ -36,10 +40,16 @@ public class GrappleTracer : MonoBehaviour {
 		Destroy (gameObject);
 	}
 	
-	GameObject MakeHook() {
+	GameObject MakeHook(GameObject enemyAttach) {
 		GameObject theHook = Instantiate (hook, transform.position, Quaternion.identity) as GameObject;
 		HingeJoint2D hj = theHook.GetComponent<HingeJoint2D> ();
-		hj.connectedAnchor = transform.position;
+		if (enemyAttach) {
+			hj.connectedAnchor = Vector2.zero;
+			hj.connectedBody = enemyAttach.GetComponent<Rigidbody2D> ();
+			theHook.transform.parent = enemyAttach.transform;
+		} else {
+			hj.connectedAnchor = transform.position;
+		}
 		return theHook;
 	}
 
